@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      "colors": {
+        transparent: "transparent",
+        current: "currentColor",
+        customgray2: "#82a0aa",
+        customred: "#e31f26",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
